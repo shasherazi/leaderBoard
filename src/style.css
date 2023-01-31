@@ -3,10 +3,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #1a120b;
+  color: #e5e5cb;
+  height: 100%;
+}
+
+* {
+  border-radius: 5px;
 }
 
 .leaderboard-heading {
   text-align: center;
+  margin: 0;
+  padding-top: 30px;
 }
 
 .leaderboard {
@@ -31,7 +40,7 @@ body {
 
 .recent-scores-list {
   list-style: none;
-  border: 1px solid black;
+  border: 1px solid #d5cea3;
   width: 100%;
   padding: 0;
 }
@@ -40,14 +49,15 @@ body {
   padding: 10px;
 }
 
-.recent-score:nth-child(odd) {
-  background-color: #cfcfcf;
+.recent-score:nth-child(even) {
+  background-color: #3c2a21;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 input {
@@ -55,25 +65,26 @@ input {
   padding: 10px;
   border: none;
   border-bottom: 1px solid black;
+  background-color: #3c2a21;
+  color: #e5e5cb;
 }
 
 input:focus {
   outline: none;
-  border-bottom: 3px solid #0095ff;
 }
 
 button {
   padding: 10px;
-  width: 100px;
-  background-color: #0095ff;
-  color: white;
+  width: 150px;
+  background-color: #e5e5cb;
   cursor: pointer;
+  font-size: 16px;
   border: none;
   user-select: none;
 }
 
 button:hover {
-  background-color: #006ec7;
+  background-color: #d5cea3;
 }
 
 @media screen and (max-width: 768px) {
