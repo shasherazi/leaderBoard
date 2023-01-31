@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leader Board</title>
+  </head>
+  <body>
+    <main class="main">
+      <header>
+        <h1 class="leaderboard-heading">Leader Board</h1>
+      </header>
+      <section class="leaderboard">
+        <article class="scoreboard">
+            <div class="recent-heading-and-button">
+                <h2 class="recent-heading">Recent Scores</h2>
+                <button class="refresh-btn">Refresh</button>
+            </div>
+
+            <ul class="recent-scores-list">
+                <li class="recent-score">
+                    <span class="name">Name: </span>
+                    <span class="score">Score: </span>
+                </li>
+                <li class="recent-score">
+                    <span class="name">Name: </span>
+                    <span class="score">Score: </span>
+                </li>
+                <li class="recent-score">
+                    <span class="name">Name: </span>
+                    <span class="score">Score: </span>
+                </li>
+                <li class="recent-score">
+                    <span class="name">Name: </span>
+                    <span class="score">Score: </span>
+                </li>
+            </ul>
+
+        </article>
+        <article class="form-container">
+            <h2 class="add-heading">Add your score</h2>
+          <form class="form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your name"
+              class="form-input"
+            />
+            <input
+              type="number"
+              name="score"
+              id="score"
+              placeholder="Your score"
+              class="form-input"
+            />
+            <button type="submit" class="form-btn">Submit</button>
+          </form>
+      </section>
+    </main>
+  </body>
+</html>
