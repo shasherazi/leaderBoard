@@ -1,5 +1,5 @@
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const id = 'e9Bi19uY3UWMPTgMd3lv';
+const id = '87OPAjtKd5z1TGXZZ9dx';
 
 const uploadScore = async (user, score) => {
   const response = await fetch(`${url}games/${id}/scores/`, {
