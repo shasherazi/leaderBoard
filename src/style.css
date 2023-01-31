@@ -10,7 +10,7 @@ body {
 }
 
 .leaderboard {
-  margin-top: 50px;
+  margin: 50px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -23,6 +23,10 @@ body {
 
 .recent-heading {
   margin-right: 50px;
+}
+
+.refresh-button {
+  cursor: pointer;
 }
 
 .recent-scores-list {
@@ -47,11 +51,34 @@ body {
 }
 
 input {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 3px solid #0095ff;
 }
 
 button {
   padding: 10px;
   width: 100px;
+  background-color: #0095ff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #006ec7;
+}
+
+@media screen and (max-width: 768px) {
+  .leaderboard {
+    flex-direction: column;
+    align-items: center;
+  }
 }
