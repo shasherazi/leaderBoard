@@ -3,13 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #1a120b;
-  color: #e5e5cb;
+  background-color: #2c3639;
+  color: #dcd7c9;
   height: 100%;
-}
-
-* {
-  border-radius: 5px;
 }
 
 .leaderboard-heading {
@@ -40,7 +36,7 @@ body {
 
 .recent-scores-list {
   list-style: none;
-  border: 1px solid #d5cea3;
+  border: 1px solid #a27b5c;
   width: 100%;
   padding: 0;
 }
@@ -50,7 +46,7 @@ body {
 }
 
 .recent-score:nth-child(even) {
-  background-color: #3c2a21;
+  background-color: #3f4e4f;
 }
 
 .form {
@@ -61,22 +57,23 @@ body {
 }
 
 input {
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
   border: none;
-  border-bottom: 1px solid black;
-  background-color: #3c2a21;
-  color: #e5e5cb;
+  background-color: #3f4e4f;
+  color: #dcd7c9;
 }
 
 input:focus {
   outline: none;
+  border-bottom: 1px solid #dcd7c9;
 }
 
 button {
   padding: 10px;
+  margin-top: 20px;
   width: 150px;
-  background-color: #e5e5cb;
+  background-color: #dcd7c9;
   cursor: pointer;
   font-size: 16px;
   border: none;
@@ -84,7 +81,8 @@ button {
 }
 
 button:hover {
-  background-color: #d5cea3;
+  background-color: #3f4e4f;
+  color: #dcd7c9;
 }
 
 @media screen and (max-width: 768px) {
