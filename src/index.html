@@ -14,22 +14,10 @@
         <article class="scoreboard">
             <div class="recent-heading-and-button">
                 <h2 class="recent-heading">Recent Scores</h2>
-                <button class="refresh-btn">Refresh</button>
+                <button class="refresh-button">Refresh</button>
             </div>
 
             <ul class="recent-scores-list">
-                <li class="recent-score">
-                    <span class="name">Name: </span>
-                    <span class="score">Score: </span>
-                </li>
-                <li class="recent-score">
-                    <span class="name">Name: </span>
-                    <span class="score">Score: </span>
-                </li>
-                <li class="recent-score">
-                    <span class="name">Name: </span>
-                    <span class="score">Score: </span>
-                </li>
                 <li class="recent-score">
                     <span class="name">Name: </span>
                     <span class="score">Score: </span>
@@ -46,6 +34,7 @@
               id="name"
               placeholder="Your name"
               class="form-input"
+              required
             />
             <input
               type="number"
@@ -53,8 +42,9 @@
               id="score"
               placeholder="Your score"
               class="form-input"
+              required
             />
-            <button type="submit" class="form-btn">Submit</button>
+            <button type="submit" class="submit-button">Submit</button>
           </form>
       </section>
     </main>
