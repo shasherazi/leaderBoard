@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leader Board</title>
+    <!-- Import fontaweseome -->
+    <script
+        src="https://kit.fontawesome.com/79b3da0f3c.js"
+        crossorigin="anonymous">
+    </script>
+    <!-- Import fontaweseome -->
   </head>
   <body>
     <main class="main">
@@ -14,7 +20,7 @@
         <article class="scoreboard">
             <div class="recent-heading-and-button">
                 <h2 class="recent-heading">Recent Scores</h2>
-                <button class="refresh-button">Refresh</button>
+                <i class="fa-solid fa-arrows-rotate refresh-button"></i>
             </div>
 
             <ul class="recent-scores-list">
@@ -35,6 +41,7 @@
               placeholder="Your name"
               class="form-input"
               required
+              autocomplete="off"
             />
             <input
               type="number"
@@ -43,6 +50,7 @@
               placeholder="Your score"
               class="form-input"
               required
+              autocomplete="off"
             />
             <button type="submit" class="submit-button">Submit</button>
           </form>
